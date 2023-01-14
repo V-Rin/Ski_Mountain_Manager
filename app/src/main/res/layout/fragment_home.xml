@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl_home"
+    tools:context="com.boba_team.ski_mountain_manager.HomeFragment"
+    android:background="@color/cyan">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/home_card_title"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="20dp"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="40dp"
+        card_view:cardBackgroundColor="@color/dark_cyan"
+        card_view:cardUseCompatPadding="true"
+        >
+
+        <TextView
+            android:id="@+id/home_statistics_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="40sp"
+            android:shadowColor="#9d9790"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/home_statistics_title"
+            android:textColor="@color/beige_text" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_distance"
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="120dp"
+        card_view:cardBackgroundColor="@color/beige_card"
+        card_view:cardCornerRadius="40dp"
+        card_view:cardUseCompatPadding="true">
+
+        <ProgressBar
+            android:id="@+id/distanceProgressBar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|start"
+            android:indeterminate="false"
+            android:progressDrawable="@drawable/progress_ring"
+            android:background="@drawable/ring_shape"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="60">
+        </ProgressBar>
+
+
+        <!--android:text="60%" - плейсхолдер для будущих процентов, которые будут расчитываться в бэкенде-->
+        <TextView
+            android:id="@+id/progress_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:gravity="center|start"
+            android:layout_marginStart="40dp"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="40sp"
+            android:text="60%"
+            android:textColor="@color/dark_cyan"
+            android:background="@color/transparent"
+            />
+
+        <TextView
+            android:id="@+id/title_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end|top"
+            android:gravity="center|end|top"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="32sp"
+            android:text="@string/title_distance"
+            android:textColor="@color/dark_cyan"/>
+
+
+        <!--android:text="You have covered 12,000 meters in total!" - плейсхолдер,
+        где 12,000 meters - значение подсчитываемое в бэкенде, остальное - статичная строка-->
+        <TextView
+            android:layout_width="195dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center|end|top"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center|end|top"
+            android:text="You have covered 12,000 meters in total!"
+            android:textColor="@color/dark_cyan"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end|bottom"
+            android:layout_marginEnd="95dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/button_angle_small_down"
+            android:src="@drawable/ic_angle_small_down"
+            android:scaleType="center"
+            tools:ignore="SpeakableTextPresentCheck"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_sleep"
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="340dp"
+        card_view:cardBackgroundColor="@color/beige_card"
+        card_view:cardCornerRadius="40dp"
+        card_view:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/title_sleep"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center|top"
+            android:gravity="center"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/title_sleep"
+            android:textColor="@color/dark_cyan"
+            android:textSize="32sp" />
+
+        <!-- Плейсхолдер для графика (если в итоге будет). Так как завязано на бэкенде - я пока забила -->
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sleep_graph" />
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

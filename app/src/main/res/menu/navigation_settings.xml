@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_settings_notifications"
+        android:icon="@drawable/ic_bell"
+        android:title="Notifications"/>
+
+    <item
+        android:id="@+id/navigation_settings_personalisation"
+        android:icon="@drawable/ic_palette"
+        android:title="Personalisation"/>
+
+    <item
+        android:id="@+id/navigation_settings_black_list"
+        android:icon="@drawable/ic_black_list"
+        android:title="Black List"/>
+
+    <item
+        android:id="@+id/navigation_settings_application"
+        android:icon="@drawable/ic_sliders"
+        android:title="Application"/>
+
+    <item
+        android:id="@+id/navigation_settings_about"
+        android:icon="@drawable/ic_info"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/navigation_settings_help"
+        android:icon="@drawable/ic_interrogation"
+        android:title="Help"/>
+
+    <item
+        android:id="@+id/navigation_settings_exit"
+        android:icon="@drawable/ic_exit"
+        android:title="Exit"/>
+</menu>

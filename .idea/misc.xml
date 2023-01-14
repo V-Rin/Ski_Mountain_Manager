@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1965" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/bitmap_settings_profile_photo.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/button_angle_small_down.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/free-icon-font-interrogation-3916718_24.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/graph_border.xml" value="0.1" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_angle_small_down.xml" value="0.1" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_angle_small_right.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_bell.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_black_list.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_groups.xml" value="0.1" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_home.xml" value="0.1965" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_info.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1965" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_lock.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_map.xml" value="0.1965" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_palette.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_profile.xml" value="0.1965" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ic_settings.xml" value="0.1" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/progress_ring.xml" value="0.1" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/ring_shape.xml" value="0.1" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/drawable/settings_profile_image.xml" value="0.1915" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/layout/fragment_group.xml" value="0.15427350427350428" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/layout/fragment_map.xml" value="0.16304347826086957" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/layout/fragment_profile.xml" value="0.18802083333333333" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/layout/fragment_settings.xml" value="0.5" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/menu/navigation.xml" value="0.1875" />
+        <entry key="..\:/Java Progs/Ski_Mountain_Manager/app/src/main/res/menu/navigation_settings.xml" value="0.19322916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
